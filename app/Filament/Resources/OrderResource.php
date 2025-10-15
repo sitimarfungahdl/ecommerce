@@ -73,11 +73,11 @@ class OrderResource extends Resource
                                 'delivered' => 'Delivered',
                                 'canceled' => 'Canceled',
                             ])->colors([
-                                'new' => 'info',           // Biru
-                                'processing' => 'warning',  // Kuning
-                                'shipped' => 'primary',     // Ungu
-                                'delivered' => 'success',   // Hijau
-                                'canceled' => 'danger',     // Merah
+                                'new' => 'info',
+                                'processing' => 'warning',
+                                'shipped' => 'primary',
+                                'delivered' => 'success',
+                                'canceled' => 'danger',
                             ])
                             ->icons([
                                 'new' => 'heroicon-m-sparkles',
